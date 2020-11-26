@@ -10,6 +10,7 @@ function saveName(text){
 }
 
 function handleSubmit(event){
+    // check later why event.preventDeault() is needed
     event.preventDefault();
     const currentValue = input.value;
     paintGreeting(currentValue);
@@ -17,11 +18,13 @@ function handleSubmit(event){
 }
 
 function askForName(){
+    // why is SHOWING_CLASS_NAME used?
     form.classList.add(SHOWING_CLASS_NAME);
     form.addEventListener("submit", handleSubmit);
 }
 
 function paintGreeting(text){
+    // why is SHOWING_CLASS_NAME used?
     form.classList.remove(SHOWING_CLASS_NAME);
     greetings.classList.add(SHOWING_CLASS_NAME);
     greetings.innerText = `Hello, ${text}`
