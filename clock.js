@@ -6,6 +6,7 @@ function padZero(num){
 }
 
 function setTime(){
+    // instantiating the Date object
     const date = new Date();
     const hour = date.getHours();
     const minute = date.getMinutes();
@@ -15,6 +16,7 @@ function setTime(){
 
 function init(){
     setTime();
+    // executing the setTime function every 1000 milliseconds
     setInterval(setTime, 1000); 
 }
 
