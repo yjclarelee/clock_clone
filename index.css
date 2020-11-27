@@ -31,6 +31,7 @@ li {
 /* size for the button */
 button{
     font-size: 0.5rem;
+    border-radius: 0.1rem;
 }
 
 /* characteristics of the input box and text */

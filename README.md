@@ -1,8 +1,13 @@
-# Clock
-Clone coding of the Momentum page
+# Momentum Clone
+Clone coding of the [Momentum](https://momentumdash.com/) page
 
-## Time
-Real-time clock
+## Functions
+-[x] Real-time clock
+-[x] Local storage of name
+-[x] Greeting with name
+-[x] Locally stored hecklist
+-[] Geolocation
+-[] Get weather
 
-## Text
-Locally saved text
+## Go to webpage
+[https://yjclarelee.github.com/clock_website](https://yjclarelee.github.com/clock_website)
