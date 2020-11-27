@@ -10,4 +10,4 @@ Clone coding of the [Momentum](https://momentumdash.com/) page
 - [ ] Get weather
 
 ## Webpage
-[https://yjclarelee.github.io/clock_website](https://yjclarelee.github.io/clock_website)
+[https://yjclarelee.github.io/clock_clone](https://yjclarelee.github.io/clock_clone)
