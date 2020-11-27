@@ -7,8 +7,44 @@ body{
     display: none;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+button{
+    font-size: 0.5rem;
+}
+
+input::placeholder{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.toDoForm{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
 .showing{
     display: block;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 @keyframes fadeIn {
