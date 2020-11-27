@@ -5,7 +5,19 @@ const toDoList = document.querySelector(".js-toDoList");
 // key value of local storage
 const TO_DO_LOCAL_STORAGE = "toDos";
 
-const toDos = [];
+let toDos = [];
+
+function deleteToDo(event){
+    const btn = event.target;
+    const li = btn.parentNode;
+    toDoList.removeChild(li);
+    // Don't understand this part yet
+    const cleanToDos = toDos.filter(function(toDo){
+        return toDo.id !== parseInt(li.id);
+    });
+    toDos = cleanToDos;
+    saveToDos();
+}
 
 function saveToDos(){
     // JSON stringify changes a javscript object to a string
@@ -19,6 +31,8 @@ function paintToDo(text){
     const delBtn = document.createElement("button");
     const newId = toDos.length + 1 ;
     delBtn.innerText = "❌";
+    // Why is eventListener here?
+    delBtn.addEventListener("click", deleteToDo);
     const span = document.createElement("span");
     span.innerText = `${text} `;
     li.appendChild(span);
