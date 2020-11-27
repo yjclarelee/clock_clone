@@ -20,7 +20,7 @@ h1 {
 li {
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,20 +34,29 @@ button{
 }
 
 /* characteristics of the input box and text */
-input[type=text] {
+.form input[type=text], .toDoForm input[type=text] {
     text-align: center;
-    width: 200px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid white;
     background-color: transparent;
-    font-size: 1.2rem;
+    font-size: 2rem;
     /* color of input text */
     color: white;
     outline: none;
   }
+
+.form input[type=text]{
+    width: 360px;
+  }
+
+.toDoForm input[type=text] {
+    width: 300px;
+    
+  }
+
 
 /* font settings for the placeholders name and todos */
 input::placeholder{
