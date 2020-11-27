@@ -33,6 +33,7 @@ button{
     font-size: 0.5rem;
 }
 
+/* characteristics of the input box and text */
 input[type=text] {
     text-align: center;
     width: 200px;
@@ -43,14 +44,17 @@ input[type=text] {
     border-bottom: 2px solid white;
     background-color: transparent;
     font-size: 1.2rem;
+    /* color of input text */
     color: white;
     outline: none;
   }
 
 /* font settings for the placeholders name and todos */
 input::placeholder{
+    /* why is this not needed? */
     text-align: center;
     border-color: white;
+    /* color of placeholer text */
     color: white;
     font-family: 'Poppins', sans-serif;
 
