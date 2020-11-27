@@ -32,6 +32,8 @@ li {
 button{
     font-size: 0.5rem;
     border-radius: 0.1rem;
+    border: none;
+    background-color: transparent;
 }
 
 /* characteristics of the input box and text */
