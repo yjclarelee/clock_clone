@@ -33,15 +33,33 @@ button{
     font-size: 0.5rem;
 }
 
+input[type=text] {
+    text-align: center;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: white;
+    outline: none;
+  }
+
 /* font settings for the placeholders name and todos */
 input::placeholder{
     text-align: center;
+    border-color: white;
+    color: white;
     font-family: 'Poppins', sans-serif;
+
 }
 
 /* align the toDoForm to the middle */
 .toDoForm{
     text-align: center;
+    color: white;
 }
 
 /* font settings for the greeting*/
