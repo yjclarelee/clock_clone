@@ -5,7 +5,7 @@ Clone coding of the [Momentum](https://momentumdash.com/) page
 - [x] Real-time clock
 - [x] Local storage of name
 - [x] Greeting with name
-- [x] Locally stored hecklist
+- [x] Locally stored checklist
 - [ ] Geolocation
 - [ ] Get weather
 
