@@ -56,6 +56,10 @@ input::placeholder{
 
 }
 
+input:focus::placeholder {
+    color: transparent;
+  }
+
 /* align the toDoForm to the middle */
 .toDoForm{
     text-align: center;
