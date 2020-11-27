@@ -1,3 +1,4 @@
+ /* color before the background image is uploaded */
 body{
     background-color:#34ace0;
 }
@@ -7,6 +8,7 @@ body{
     display: none;
 }
 
+/* font settings for the time */
 h1 {
     color: white;
     text-align: center;
@@ -14,6 +16,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+/* font settings for the list elements */
 li {
     color: white;
     text-align: center;
@@ -25,20 +28,23 @@ li {
     
 }
 
+/* size for the button */
 button{
     font-size: 0.5rem;
 }
 
+/* font settings for the placeholders name and todos */
 input::placeholder{
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
+/* align the toDoForm to the middle */
 .toDoForm{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
 
+/* font settings for the greeting*/
 .showing{
     display: block;
     color: white;
